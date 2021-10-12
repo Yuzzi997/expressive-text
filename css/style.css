@@ -4,6 +4,7 @@ body{
 
 h1{
     text-align: center;
+
 }
 
 h2{
@@ -12,4 +13,31 @@ h2{
 
 h3{
     text-align: center;
+}
+
+
+/* Psuedo selectors */
+button {
+    font-family: "Audiowide";
+    padding: 20px;
+    border: 0px;
+    background:darkseagreen;
+    border-radius: 70px;
+    display: block;
+    outline: none;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+    
+button:hover {
+    background:darkgrey;
+    opacity: 10px;
+    padding: 40px;
+    font-size: larger;
+}
+
+button:active {
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.25);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
