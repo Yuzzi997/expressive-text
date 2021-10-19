@@ -10,6 +10,7 @@ h2{
     color:whitesmoke;
     text-align: center;
 }
+
 /*effect-underline*/
 a.effect-underline:after {
 	content: '';
@@ -92,6 +93,4 @@ a.effect-shine:hover {
     to {
       -webkit-mask-position: -50%;
     }
- 
     
-   
